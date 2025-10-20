@@ -13,22 +13,26 @@ namespace CW1_template
             // Question 1: 
             Console.WriteLine("-------Question 1-------");
             // Enter code and comments here...
-
-           
-        }
-
-
-
-        // Returns a character array populated with the alphabet (upper case letters)
-        static char[] GetAlphabet()
-        {
-            char[] alphabet = new char[26];
-            for (int i = 65; i <= 90; i++)
+            int count = 0;
+            while (count < 90)
             {
-                alphabet[i - 65] = (char)i;
-            }
-            return alphabet;
-        }
 
+
+
+
+                // Returns a character array populated with the alphabet (upper case letters)
+                static char[] GetAlphabet()
+                {
+                    char[] alphabet = new char[26];
+                    for (int i = 65; i <= 90; i++)
+                    {
+                        alphabet[i - 65] = (char)i;
+                    }
+                    return alphabet;
+                }
+                Console.WriteLine(GetAlphabet());
+                count++;
+            }
+        }
     }
 }

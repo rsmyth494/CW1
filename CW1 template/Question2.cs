@@ -13,8 +13,15 @@ namespace CW1_template
             // Question 2:
             Console.WriteLine("\n-------Question 2-------");
             // Enter code and comments here...
+                 
+            for (int i = 1; i <=50; i++)
+            {
+                int prime = (i / 3 );
+                Console.WriteLine(prime);
+                
+            }
            
-
+       
         }
     }
 }

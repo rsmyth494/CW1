@@ -18,8 +18,15 @@ internal class CW1
         Question2.question2();
         Question3.question3();
         Question4.question4();
+        Product product = new Product(1, "Tablet", 1300.50, 4);
+        product.DisplayProductInfo();
+
+        Product product1 = new Product(2, "Smartphone", 712.50, 12);
+        product1.DisplayProductInfo();
+
         Question5.question5();
         Question6.question6();
+        product.CheapestProduct();
 
     }
 }
